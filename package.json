@@ -1,0 +1,27 @@
+{
+  "name": "biocode",
+  "version": "1.0.0",
+  "description": "Main bio code website",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "eslint src/**/*",
+    "build": "tsc && node bin/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daresh887/biocode.git"
+  },
+  "author": "BioCode web development team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daresh887/biocode/issues"
+  },
+  "homepage": "https://github.com/daresh887/biocode#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "eslint": "^8.1.0",
+    "typescript": "^4.4.4"
+  }
+}
